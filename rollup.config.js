@@ -15,9 +15,9 @@ const outputOptions = {
   exports: "named",
   preserveModules: true,
   banner: `/*
- * Rollup Library Starter
- * {@link https://github.com/mryechkin/rollup-library-starter}
- * @copyright Mykhaylo Ryechkin (@mryechkin)
+ * japanese-date
+ * {@link https://github.com/KyLoc20/japanese-date}
+ * @copyright KyLoc20
  * @license MIT
  */`,
 };
@@ -51,10 +51,10 @@ const config = {
       name: "japanese-date-bundle",
     },
   ],
-  // external: makeExternalPredicate([
-  //   ...Object.keys(pkg.dependencies || {}),
-  //   ...Object.keys(pkg.peerDependencies || {}),
-  // ]),
+  external: makeExternalPredicate([
+    ...Object.keys(pkg.dependencies || {}),
+    ...Object.keys(pkg.peerDependencies || {}),
+  ]),
   plugins: [
     alias({
       entries: {

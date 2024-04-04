@@ -1,6 +1,6 @@
 {
   "name": "@kyloc20/japanese-date",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "type": "module",
   "main": "./dist/cjs/index.js",
@@ -19,7 +19,7 @@
     "build": "rollup -c"
   },
   "author": "KyLoc20",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/KyLoc20/japanese-date"
