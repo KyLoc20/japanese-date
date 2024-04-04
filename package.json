@@ -18,8 +18,12 @@
     "prebuild": "rimraf dist",
     "build": "rollup -c"
   },
-  "author": "Kyloc21",
+  "author": "KyLoc20",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyLoc20/japanese-date"
+  },
   "dependencies": {
     "dayjs": "^1.11.10"
   },
