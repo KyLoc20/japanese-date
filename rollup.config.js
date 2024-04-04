@@ -51,10 +51,10 @@ const config = {
       name: "japanese-date-bundle",
     },
   ],
-  external: makeExternalPredicate([
-    ...Object.keys(pkg.dependencies || {}),
-    ...Object.keys(pkg.peerDependencies || {}),
-  ]),
+  // external: makeExternalPredicate([
+  //   ...Object.keys(pkg.dependencies || {}),
+  //   ...Object.keys(pkg.peerDependencies || {}),
+  // ]),
   plugins: [
     alias({
       entries: {
